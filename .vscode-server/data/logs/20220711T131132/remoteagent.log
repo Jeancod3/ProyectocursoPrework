@@ -1,0 +1,17 @@
+[2022-07-11 13:11:32.692] [remoteagent] [info] Extension host agent started.
+[2022-07-11 13:11:33.144] [remoteagent] [info] [127.0.0.1][50247785][ManagementConnection] New connection established.
+[2022-07-11 13:11:33.368] [remoteagent] [info] [127.0.0.1][d9c72979][ExtensionHostConnection] New connection established.
+[2022-07-11 13:11:42.556] [remoteagent] [error] ptyHost was unable to resolve shell environment {}
+[2022-07-11 13:11:42.556] [remoteagent] [error] RequestService#request (node) resolving shell environment failed {}
+[2022-07-11 13:11:42.557] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-07-11 13:11:42.565] [remoteagent] [info] [127.0.0.1][d9c72979][ExtensionHostConnection] <87> Launched Extension Host Process.
+[2022-07-11 13:12:26.419] [remoteagent] [info] [127.0.0.1][50247785][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-07-11 13:12:26.436] [remoteagent] [info] [127.0.0.1][d9c72979][ExtensionHostConnection] <87> Extension Host Process exited with code: 0, signal: null.
+[2022-07-11 13:12:28.691] [remoteagent] [info] [127.0.0.1][001ad9c5][ManagementConnection] New connection established.
+[2022-07-11 13:12:29.438] [remoteagent] [info] [127.0.0.1][89b04108][ExtensionHostConnection] New connection established.
+[2022-07-11 13:12:29.444] [remoteagent] [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed {}
+[2022-07-11 13:12:29.466] [remoteagent] [info] [127.0.0.1][89b04108][ExtensionHostConnection] <157> Launched Extension Host Process.
+[2022-07-11 13:30:35.776] [remoteagent] [info] [127.0.0.1][89b04108][ExtensionHostConnection] <157> Extension Host Process exited with code: 0, signal: null.
+[2022-07-11 13:30:35.791] [remoteagent] [info] [127.0.0.1][001ad9c5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-07-11 13:30:38.277] [remoteagent] [info] [127.0.0.1][bc1c2c27][ManagementConnection] New connection established.
+[2022-07-11 13:30:39.032] [remoteagent] [info] [127.0.0.1][bc1c2c27][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/share/npm/bin/npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'crate-react-app@latest',
+1 verbose cli   '--global',
+1 verbose cli   '--prefix',
+1 verbose cli   '/home/jeanlp/.npm/_npx/10448',
+1 verbose cli   '--loglevel',
+1 verbose cli   'error',
+1 verbose cli   '--json' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose npm-session 39c63e8f4680ebdc
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 404 https://registry.npmjs.org/crate-react-app 1057ms
+8 http fetch GET 404 https://registry.npmjs.org/crate-react-app 931ms
+9 silly fetchPackageMetaData error for crate-react-app@latest 404 Not Found - GET https://registry.npmjs.org/crate-react-app - Not found
+10 timing stage:rollbackFailedOptional Completed in 0ms
+11 timing stage:runTopLevelLifecycles Completed in 2006ms
+12 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/crate-react-app - Not found
+12 verbose stack     at res.buffer.catch.then.body (/usr/share/npm/node_modules/npm-registry-fetch/check-response.js:104:15)
+12 verbose stack     at process._tickCallback (internal/process/next_tick.js:68:7)
+13 verbose statusCode 404
+14 verbose pkgid crate-react-app@latest
+15 verbose cwd /home/jeanlp
+16 verbose Linux 5.10.16.3-microsoft-standard-WSL2
+17 verbose argv "/usr/bin/node" "/usr/share/npm/bin/npm-cli.js" "install" "crate-react-app@latest" "--global" "--prefix" "/home/jeanlp/.npm/_npx/10448" "--loglevel" "error" "--json"
+18 verbose node v10.19.0
+19 verbose npm  v6.14.4
+20 error code E404
+21 error 404 Not Found - GET https://registry.npmjs.org/crate-react-app - Not found
+22 error 404
+23 error 404 'crate-react-app@latest' is not in the npm registry.
+24 error 404 You should bug the author to publish it (or use the name yourself!)
+25 error 404 Note that you can also install from a
+26 error 404 tarball, folder, http url, or git url.
+27 verbose exit [ 1, true ]
